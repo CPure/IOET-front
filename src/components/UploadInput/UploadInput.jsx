@@ -1,8 +1,8 @@
 import React from 'react'
 
 const UploadInput = ({onChange}) => (
-  <div>
-    <input type="file" onChange={onChange}></input>
+  <div >
+    <input role='uploadInput' type="file" onChange={onChange} ></input>
   </div>  
 )
 
